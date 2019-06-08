@@ -4,7 +4,7 @@
       *
       * @author Evgeny Shestakov (lester_g@inbox.ru)
       */
-     public class Calculate{
+     public class Calculate {
      /**
       * Main.
       * @param args - args.
