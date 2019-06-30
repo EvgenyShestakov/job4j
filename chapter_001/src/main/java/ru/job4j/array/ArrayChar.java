@@ -20,7 +20,7 @@ public class ArrayChar {
         {
             if (wrd[i] != pref[i])
             {
-                return false;
+                result = false;
             }
         }
         return result;
