@@ -15,10 +15,15 @@ public class ArrayChar {
         boolean result = true;
         char[] pref = prefix.toCharArray();
         char[] wrd = word.toCharArray();
-        if (wrd[0] == pref[0] && wrd[1] == pref[1]) {
-            return result;
-        } else {
-            return false;
+        int minLength = Math.min(pref.length, wrd.length);
+        for (int i = 0; i < minLength; i++)
+        {
+            if (wrd[i] != pref[i])
+            {
+                return false;
+            }
         }
+        return true;
     }
-}
+
+    }
