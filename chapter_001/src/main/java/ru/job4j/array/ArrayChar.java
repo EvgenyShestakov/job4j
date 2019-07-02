@@ -16,10 +16,8 @@ public class ArrayChar {
         char[] pref = prefix.toCharArray();
         char[] wrd = word.toCharArray();
         int minLength = Math.min(pref.length, wrd.length);
-        for (int i = 0; i < minLength; i++)
-        {
-            if (wrd[i] != pref[i])
-            {
+        for (int i = 0; i < minLength; i++) {
+            if (wrd[i] != pref[i]) {
                 result = false;
                 break;
             }
