@@ -13,7 +13,6 @@ public class Calculator {
      * @param second второй аргумент.
      * @return результат.
      */
-
  public double add(double first, double second) {
  return first + second;
  }
@@ -44,5 +43,4 @@ public class Calculator {
     public double multiple(double first, double second) {
  return first * second;
  }
-
  }

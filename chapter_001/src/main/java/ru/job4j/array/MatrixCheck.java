@@ -18,8 +18,6 @@ public class MatrixCheck {
             if (data[i][i] != data[i + 1][i + 1] || (data[i][x - i] != data[i + 1][x - i - 1])) {
                 result = false;
                 break;
-
-
             }
         }
         return result;

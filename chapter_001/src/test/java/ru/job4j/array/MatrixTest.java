@@ -7,8 +7,8 @@ import static org.junit.Assert.assertThat;
 public class MatrixTest {
     @Test
     public void when2on2() {
-        Matrix matrix = new Matrix();
-        int[][] table = matrix.multiple(9);
+        Matrix multiplication = new Matrix();
+        int[][] table = multiplication.multiple(9);
         int[][] expect = {
                 {1, 2, 3, 4, 5, 6, 7, 8, 9},
                 {2, 4, 6, 8, 10, 12, 14, 16, 18},

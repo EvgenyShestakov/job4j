@@ -15,10 +15,7 @@ public class Triangle {
      */
     public double period(double a, double b, double c) {
         return (a + b + c) / 2;
-
-
     }
-
     /**
      * Метод проверяет можно ли построить треугольник с такими длинами сторон.
      *
@@ -31,9 +28,7 @@ public class Triangle {
      */
     private boolean exist(double a, double c, double b) {
         return (a + b > c && a + c > b && b + c > a);
-
     }
-
     /**
      * Метод должен вычислить площадь треугольника.
      *

@@ -1,4 +1,5 @@
 package ru.job4j.array;
+
 /**Square
  * @author Evgeny Shestakov (lester_g@inbox.ru)
  * @version 1.0
@@ -6,16 +7,17 @@ package ru.job4j.array;
  */
 public class FindLoop {
     /**Поиск перебором
+     * если элемента нет в массиве, то возвращаем -1.
      * @return rst
      */
     public int indexOf(int[] data, int el) {
-        int rst = -1; // если элемента нет в массиве, то возвращаем -1.
+        int result = -1;
         for (int i = 0; i < data.length; i++) {
             if (data[i] == el) {
-                rst = i;
+                result = i;
                 break;
             }
         }
-        return rst;
+        return result;
     }
 }

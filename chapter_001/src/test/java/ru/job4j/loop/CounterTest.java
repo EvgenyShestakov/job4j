@@ -12,6 +12,4 @@ public class CounterTest {
         int result = counter.add(1, 10);
         assertThat(result, is(30));
     }
-
-
 }

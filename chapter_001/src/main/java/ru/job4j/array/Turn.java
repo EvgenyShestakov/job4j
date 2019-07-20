@@ -15,7 +15,6 @@ public class Turn {
             temp = array[i];
             array[i] = array[n - i - 1];
             array[n - i - 1] = temp;
-
         }
         return array;
     }

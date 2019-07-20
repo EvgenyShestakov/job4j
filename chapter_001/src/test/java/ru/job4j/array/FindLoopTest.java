@@ -15,6 +15,7 @@ public class FindLoopTest {
         int expect = 0;
         assertThat(result, is(expect));
     }
+
     @Test
     public void whenArrayHas7ThenCanNotFound() {
         FindLoop find = new FindLoop();

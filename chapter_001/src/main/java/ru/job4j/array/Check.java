@@ -1,4 +1,5 @@
 package ru.job4j.array;
+
 /**Check
  * @author Evgeny Shestakov (lester_g@inbox.ru)
  * @version 1.0
@@ -17,6 +18,5 @@ public class Check {
         }
             return result;
     }
-
     }
 

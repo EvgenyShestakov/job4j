@@ -1,4 +1,5 @@
 package ru.job4j.array;
+
 /**BubbleSort
  * @author Evgeny Shestakov (lester_g@inbox.ru)
  * @version 1.0
@@ -20,5 +21,4 @@ public class BubbleSort {
             }
         } return mas;
     }
-
 }
