@@ -28,4 +28,16 @@ public class MaxTest {
         int result = max.max(2, 7);
         assertThat(result, is(7));
     }
+    @Test
+    public void whenMax1ToThen3ToThen5() {
+        Max max = new Max();
+        int result = max.max(1,3,5);
+        assertThat(result, is(5));
+    }
+    @Test
+    public void whenMax2ToThen4ToThen6Tothen8() {
+        Max max = new Max();
+        int result = max.max(2,4,6,8);
+        assertThat(result, is(8));
+    }
 }
