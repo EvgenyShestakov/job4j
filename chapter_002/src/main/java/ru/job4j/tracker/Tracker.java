@@ -41,5 +41,30 @@ public class Tracker {
         return Arrays.copyOf(namesWithoutNull, count);
     }
 
+    public boolean replace(int id, Item replacement) {
+        boolean flag = false;
+        for (int index = 0; index < size; index++) {
+            Item item = items[index];
+            if (item.getId() == id) {
+                items[index] = replacement;
+                flag = true;
+                break;
+            }
+        }
+        return flag;
+    }
+
+    public boolean delete(int id) {
+        boolean flag = false;
+        for (int index = 0; index < size; index++) {
+            Item item = items[index];
+            if (item.getId() == id) {
+                items[index] = null;
+                flag = true;
+                break;
+            }
+        }
+        return flag;
+    }
 
 }
